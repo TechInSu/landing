@@ -11,7 +11,7 @@ import Figure3 from "../assets/figure3.svg";
 import Figure4 from "../assets/figure4.svg";
 
 import GiveawaySvg from "../assets/giveaway.svg";
-import RoadMapSvg from "../assets/roadmap.svg";
+import RoadMapSvg from "../assets/roadmap.png";
 
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";

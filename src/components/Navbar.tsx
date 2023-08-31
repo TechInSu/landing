@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link to="/research-and-development">R&D</Link>
         </div>
         <Link
-          to="https://www.knowledger.org/signUp"
+          to="https://lms-front-end.s3.eu-central-1.amazonaws.com/signUp"
           className="px-9 py-3 text-white bg-[#6A4FF5] rounded-md lg:block hidden"
         >
           Sign up
@@ -61,7 +61,7 @@ const Navbar = () => {
           <Link to="/share-knowledge">Share Knowledge</Link>
           <Link to="/research-and-development">R&D</Link>
           <Link
-            to="https://www.knowledger.org/signUp"
+            to="https://lms-front-end.s3.eu-central-1.amazonaws.com/signUp"
             className="px-9 py-3 text-white bg-[#6A4FF5] rounded-md w-max"
           >
             Sign up

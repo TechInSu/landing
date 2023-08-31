@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import RndPng from "../assets/rnd.png";
 import CloudPng from "../assets/cloud.png";
-import RoadMapSvg from "../assets/roadmap.svg";
+import RoadMapSvg from "../assets/roadmap.png";
 const RnD = () => {
   return (
     <div className="relative min-h-[100vh] overflow-x-hidden font-galano bg-[#F4F4F4]">

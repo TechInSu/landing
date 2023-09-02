@@ -8,6 +8,7 @@ nvm install 18.17.1
 nvm use 18.17.1
 
 npm install -g yarn
+npm install -g typescript
 
 yarn
 yarn build

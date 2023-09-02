@@ -29,12 +29,12 @@ const Navbar = () => {
           <Link to="/share-knowledge">Share Knowledge</Link>
           <Link to="/research-and-development">R&D</Link>
         </div>
-        <Link
-          to="https://www.knowledger.org/signUp"
+        <a
+          href="https://www.knowledger.org/platform/signUp"
           className="px-9 py-3 text-white bg-[#6A4FF5] rounded-md lg:block hidden"
         >
           Sign up
-        </Link>
+        </a>
         <img
           onClick={() => setMenuOpen((prev) => !prev)}
           className="w-10 lg:hidden block cursor-pointer z-50"

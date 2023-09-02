@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/learn">Learn course</Link>
           <Link to="/earn-points">Earn points</Link>
           <Link to="/digital-pass">Play DP</Link>
-          <Link to="https://knowledger.org/wiz">WIZ</Link>
+          <a href="https://knowledger.org/wiz">WIZ</a>
           <Link to="/share-knowledge">Share Knowledge</Link>
           <Link to="/research-and-development">R&D</Link>
         </div>

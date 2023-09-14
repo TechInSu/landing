@@ -16,13 +16,13 @@ steps:
     yarn build
     cd dist && ls
   displayName: 'yarn install and build'
-# - task: CopyFiles@2
-#   inputs:
-#     SourceFolder: '/home/vsts/work/1/s/build'
-#     Contents: '**'
-#     TargetFolder: '/home/vsts/work/1/a'
-# - task: PublishBuildArtifacts@1
-#   inputs:
-#     PathtoPublish: '/home/vsts/work/1/a'
-#     ArtifactName: 'landing'
-#     publishLocation: 'Container'
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '/home/vsts/work/1/s/dist'
+    Contents: '**'
+    TargetFolder: '/home/vsts/work/1/a'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '/home/vsts/work/1/a'
+    ArtifactName: 'landing'
+    publishLocation: 'Container'

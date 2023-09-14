@@ -14,9 +14,7 @@ steps:
     npm install -g yarn
     yarn
     yarn build
-    ls
     cd dist && ls
-    cd assets && ls
   displayName: 'yarn install and build'
 # - task: CopyFiles@2
 #   inputs:

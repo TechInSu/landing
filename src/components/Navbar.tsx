@@ -61,7 +61,7 @@ const Navbar = () => {
           <Link to="/share-knowledge">Share Knowledge</Link>
           <Link to="/research-and-development">R&D</Link>
           <Link
-            to="https://www.knowledger.org/signUp"
+            to="https://www.knowledger.org/platform/signUp"
             className="px-9 py-3 text-white bg-[#6A4FF5] rounded-md w-max"
           >
             Sign up
